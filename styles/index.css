@@ -3,6 +3,20 @@
     padding: 0%;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    width: 100%;
+}
+
+h2,footer{
+    background-color: black;
+    color: white;
+}
+
 header{
     width: 100%;
     padding: 10px 0px;
@@ -17,14 +31,14 @@ nav{
     gap: 20px;
 }
 
-#banner{
+#banner,#artigos{
     display: flex;
 }
 
-#logo{
+#logo,#agenda{
     width: 30%;
 }
 
-#bannerPeixe{
+#bannerPeixe,#servicos{
     width: 70%;
 }
